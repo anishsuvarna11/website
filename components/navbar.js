@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Image from "next/image"
-import cat1 from "../public/images/download.png"
+import cat1 from "../public/images/download-removebg-preview.png"
 
 function NavLink({to, children}) {
     return <a href={to} className={`mx-4`}>
@@ -41,23 +41,35 @@ export default function Navbar() {
     return (
         <nav className="flex filter drop-shadow-md bg-black px-4 py-4 h-20 items-center">
             <MobileNav open={open} setOpen={setOpen}/>
-            <div className="w-/12 flex items-center">
+            <div className="pl-8 w-/12 flex items-center">
                 <div className="h-16 w-24 relative">
                 <Image
                     src={cat1}
                     layout="fill" // required
                 ></Image>
                 </div>
-                <div className=" text-white">
+                <div className=" pl-8 text-white">
                 <NavLink to="/">
                         Home
                     </NavLink>
+                    </div>
+
+                    <div className=" pl-8 text-white">
+
                     <NavLink to="./pages/about">
                         About
                     </NavLink>
+                    </div>
+
+                    <div className=" pl-8 text-white">
+
                     <NavLink to="/projects">
                         Projects
                     </NavLink>
+                    </div>
+
+                    <div className=" pl-8 text-white">
+
                     <NavLink to="/subteams">
                         Subteams
                     </NavLink>
@@ -73,7 +85,7 @@ export default function Navbar() {
                     <span className={`h-1 w-full bg-white rounded-lg transition-all duration-300 ease-in-out ${open ? "w-0" : "w-full"}`} />
                     <span className={`h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${open ? "-rotate-45 -translate-y-3.5" : ""}`} />
                 </div>
-                <div className=" text-white">
+                <div className="pr-16 text-white">
                 <NavLink to="/donate">
                         DONATE
                     </NavLink>

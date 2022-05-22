@@ -1,7 +1,11 @@
 import { useState } from 'react'
 import Image from "next/image"
-import cat2 from "../public/images/Black_background.jpeg"
-import cat23 from "../public/images/lll.jpg"
+import cat2 from "../public/images/lll.jpg"
+import ca from "../public/images/Screen Shot 2022-05-22 at 1.19.37 PM.png"
+
+import cat23 from "../public/images/d16.png"
+import cat233 from "../public/images/tr.png"
+
 import d from "../public/images/Screen Shot 2022-04-23 at 11.04.38 AM.png"
 import c from "../public/images/mission.jpeg"
 import b from "../public/images/1145359.webp"
@@ -18,27 +22,212 @@ import l from "../public/images/cal1.webp"
 import m from "../public/images/cal2.webp"
 import cal3 from "../public/images/cal3.webp"
 
-
 export default function Home() {
   return (
-    
+    <div>
     <div className="bg-black">
-      <h1 className = "z-10 pt-48 text-white text-8xl flex flex-row justify-evenly items-center">
-      PROJECT CAELUS
+
+<div className="relative overflow-hidden">
+  <div className = "object-scale-down h-screen">
+<Image className=""
+      src={cat23}
+      /></div>
+      <div className="absolute w-full bottom-0 inset-x-0 text-white text-xs text-center leading-4">
+      <div className="pb-24 mb-4 flex items-center justify-center">
+    <div>
+      <h1 className = " text-white text-8xl flex flex-row justify-evenly items-center">
+      PROJECT
+      </h1>
+      <h1 className = "mb-8 text-white text-8xl flex flex-row justify-evenly items-center">
+      CAELUS
       </h1>
       
-      <h1 className = "z-20 pt-10 text-white text-2xl flex flex-row justify-evenly items-center">
+      <h1 className = "z-20 text-white text-2xl flex flex-row justify-evenly items-center">
       The first high-school team to take a liquid-fueled rocket to space.      
       </h1>
-      <Image className = "animate-pulse z-0 object-fill h-96 w-96"
-      src={cat23}
+      <div className = "animate-bounce w-6 h-6 mt-12 ml-96 mr-96 flex items-center justify-center h-24 w-24">
+      <Image className=""
+      src={cat233}
       />
+</div>
+      </div>
+      
+      </div>
+      </div>
+</div>
 
-<div className = "flex flex-row">
-    <div className = "transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-105 duration-300 pl-24 pr-6 pb-12">
+<div className="relative overflow-hidden">
+  <div className = "pr-6 pt-24 animate-pulse object-contain h-full w-full">
+<Image className="h-screen w-screen"
+      src={ca}
+      /></div>
+      <div className="absolute w-full bottom-0 inset-x-0 text-white text-xs text-center leading-4">
+      <div className=" mb-4 flex items-center justify-center">
+    <div>
+
+      <div className = "font-serif pb-8">
+      <h1 className = " text-white text-4xl flex flex-row justify-evenly items-center">
+      Meet Callisto
+      </h1></div>
+
+
+<div className = "font-serif pb-36 flex flex-row">
+    <div>
+      <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-sky-500/30 underline-offset-8 decoration-4 pt-24 flex flex-row">
+      <h1 className = " text-white text-2xl flex flex-row justify-evenly items-center">
+      Engine
+      </h1>
+      <h1 className = "pl-4 pr-4 text-white text-2xl flex flex-row justify-evenly items-center">
+      -
+      </h1>
+      <h1 className = " text-white text-2xl flex flex-row justify-evenly items-center">
+      Alphex 5A
+      </h1>
+      </div>
+
+      <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-pink-500/30 underline-offset-8 decoration-4 pt-24  flex flex-row">
+      <h1 className = "text-white text-2xl flex flex-row justify-evenly items-center">
+      Specific impulse
+      </h1>
+      <h1 className = "pl-4 pr-4 text-white text-2xl flex flex-row justify-evenly items-center">
+      -
+      </h1>
+      <h1 className = "text-white text-2xl flex flex-row justify-evenly items-center">
+      242 sec
+      </h1>
+      </div>
+
+      <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-sky-500/30 underline-offset-8 decoration-4 pt-24  flex flex-row">
+      <h1 className = " text-white text-2xl justify-evenly items-center">
+      Propellants
+      </h1>
+      <h1 className = "pl-4 pr-4 text-white text-2xl flex flex-row justify-evenly items-center">
+      -
+      </h1>
+      <h1 className = "text-white text-2xl justify-evenly items-center">
+      Liquid methane, liquid oxygen
+      </h1>
+      </div>
+
+      <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-pink-500/30 underline-offset-8 decoration-4 pt-24  flex flex-row">
+      <h1 className = " text-white text-2xl flex flex-row justify-evenly items-center">
+      Burn time
+      </h1>
+      <h1 className = "pl-4 pr-4 text-white text-2xl flex flex-row justify-evenly items-center">
+      -
+      </h1>
+      <h1 className = "text-white text-2xl flex flex-row justify-evenly items-center">
+      43 sec
+      </h1>
+      </div>
+
+      <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-sky-500/30 underline-offset-8 decoration-4 pt-24  flex flex-row">
+      <h1 className = " text-white text-2xl ">
+      Ignition source
+      </h1>
+      <h1 className = "pl-4 pr-4 text-white text-2xl flex flex-row justify-evenly items-center">
+      -
+      </h1>
+      <h1 className = "text-white text-2xl ">
+      Pyrotechnic charge
+      </h1>
+      </div>
+
+      <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-pink-500/30 underline-offset-8 decoration-4 pt-24  flex flex-row">
+      <h1 className = "text-white text-2xl">
+      Altitude
+      </h1>
+      <h1 className = "pl-4 pr-4 text-white text-2xl flex flex-row justify-evenly items-center">
+      -
+      </h1>
+      <h1 className = "text-white text-2xl flex flex-row justify-evenly items-center">
+      12 km (7.5 miles)
+      </h1>
+      </div>
+
+      </div>
+
+
+<div>
+    
+      <div className = "pl-80 transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-sky-500/30 underline-offset-8 decoration-4 pt-24  flex flex-row">
+      <h1 className = "text-white text-2xl ">
+      Recovery system
+      </h1>
+      <h1 className = "pl-4 pr-4 text-white text-2xl flex flex-row justify-evenly items-center">
+      -
+      </h1>
+      <h1 className = "text-white text-2xl ">
+      Recovery system
+      </h1>
+      </div>
+
+      <div className = "pl-80 transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-pink-500/30 underline-offset-8 decoration-4 pt-24  flex flex-row">
+      <h1 className = "text-white text-2xl ">
+      Thrust
+      </h1>
+      <h1 className = "pl-4 pr-4 text-white text-2xl flex flex-row justify-evenly items-center">
+      -
+      </h1>
+      <h1 className = "text-white text-2xl ">
+      5000 N (1124 lbs.)
+      </h1>
+      </div>
+
+      <div className = "pl-80 transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-sky-500/30 underline-offset-8 decoration-4 pt-24  flex flex-row">
+      <h1 className = " text-white text-2xl flex flex-row justify-evenly items-center">
+      Feed System
+      </h1>
+      <h1 className = "pl-4 pr-4 text-white text-2xl flex flex-row justify-evenly items-center">
+      -
+      </h1>
+      <h1 className = "text-white text-2xl flex flex-row justify-evenly items-center">
+      Helium blowdown
+      </h1>
+      </div>
+
+      <div className = "pl-80 transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-pink-500/30 underline-offset-8 decoration-4 pt-24  flex flex-row">
+      <h1 className = "text-white text-2xl flex flex-row justify-evenly items-center">
+      Max Speed
+      </h1>
+      <h1 className = "pl-4 pr-4 text-white text-2xl flex flex-row justify-evenly items-center">
+      -
+      </h1>
+      <h1 className = "text-white text-2xl flex flex-row justify-evenly items-center">
+      480 m/s (1073 mph)
+      </h1>
+      </div>
+
+      <div className = "pl-80 transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-sky-500/30 underline-offset-8 decoration-4 pt-24  flex flex-row">
+      <h1 className = "text-white text-2xl flex flex-row justify-evenly items-center">
+      Cooling system
+      </h1>
+      <h1 className = "pl-4 pr-4 text-white text-2xl flex flex-row justify-evenly items-center">
+      -
+      </h1>
+      <h1 className = " text-white text-2xl flex flex-row justify-evenly items-center">
+      Regenerative & film cooling
+      </h1>
+      </div>
+
+      <h1 className = "ml-20 pb-40 text-white text-2xl flex flex-row justify-evenly items-center">
+      </h1>
+      </div>
+      </div>
+    
+
+
+
+      </div>
+      </div>
+      </div>
+</div>
+
+<div className = "pt-12 flex flex-row">
+    <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-24 pr-6 pb-12">
     <div className=" bg-gradient-to-r from-slate-600 to-slate-900 hover:bg-gradient-to-r hover:from-slate-700 hover:to-black rounded-xl shadow-md overflow-hidden ">
   <div className="md:flex">
-    <div className="">
+    <div className="shadow-2xl">
       <Image className=" object-cover md:h-full md:w-full" src={c} alt="">
     </Image>
     <div className="p-8">
@@ -56,7 +245,7 @@ export default function Home() {
 </div>
   </div>
 
-  <div className = "transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-105 duration-300 pl-6 pr-24 pb-12">
+  <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-6 pr-24 pb-12">
     <div className="bg-gradient-to-r from-slate-600 to-slate-900 hover:bg-gradient-to-r hover:from-slate-700 hover:to-black  rounded-xl shadow-md overflow-hidden ">
   <div className="md:flex">
     <div className="">
@@ -78,7 +267,7 @@ export default function Home() {
 
   </div>
 
-  <div className = " transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-105 duration-300 pl-24 pr-24 pb-24">
+  <div className = " transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-24 pr-24 pb-24">
     <div className=" bg-gradient-to-r from-slate-600 to-slate-900 hover:bg-gradient-to-r hover:from-slate-700 hover:to-black rounded-xl shadow-md overflow-hidden ">
   <div className="md:flex">
     <div className="">
@@ -96,117 +285,117 @@ export default function Home() {
 </div>
   </div>
 
-<div className = "transition ease-in-out delay-150 pb-12 text-center">
-<button class="bg-transparent text-6xl text-white hover:bg-slate-900 font-semibold  py-2 px-4 border border-slate-500  rounded">
+<div className = "transition ease-in-out pb-12 text-center">
+<button className="bg-transparent text-6xl text-white hover:bg-slate-900 font-semibold  py-2 px-4 border border-slate-500  rounded">
   Timeline
 </button>
 </div>
 
-<div className = "pl-24 pr-24">
-<ol class="pl-6 relative border-l border-gray-800 dark:border-gray-700">                  
-    <li class="mb-24 ml-6">            
-        <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-slate-600 dark:ring-gray-900 dark:bg-blue-900">
-            <svg class="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+<div className = "drop-shadow-4xl pl-24 pr-24">
+<ol className="pl-6 relative border-l border-gray-800 dark:border-gray-700">                  
+    <li className="mb-24 ml-6">            
+        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-slate-600 dark:ring-gray-900 dark:bg-blue-900">
+            <svg className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
         </span>
-        <h3 class="flex items-center mb-1 text-lg font-semibold text-white dark:text-white">Project Caelus Formed </h3>
-        <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">November 26, 2018</time>
-        <p class="mb-4 text-base font-normal text-white dark:text-white">The initial Project Caelus team was created after a long round of interviews. We started as a team full of passion and curiosity, and most importantly eager to take on challenges and learn a lot. We've come a long way, learning and growing an incredible amount since it all started, but we'll never forget where it all began.</p>
+        <h3 className="flex items-center mb-1 text-lg font-semibold text-white dark:text-white">Project Caelus Formed </h3>
+        <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">November 26, 2018</time>
+        <p className="mb-4 text-base font-normal text-white dark:text-white">The initial Project Caelus team was created after a long round of interviews. We started as a team full of passion and curiosity, and most importantly eager to take on challenges and learn a lot. We've come a long way, learning and growing an incredible amount since it all started, but we'll never forget where it all began.</p>
       <div className="object-cover h-48 w-96 pb-24">
         <Image src={f} alt="">
         </Image>
         </div>
     </li>
-    <li class="mb-48 ml-6">            
-        <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-slate-600 dark:ring-gray-900 dark:bg-blue-900">
-            <svg class="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+    <li className="mb-48 ml-6">            
+        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-slate-600 dark:ring-gray-900 dark:bg-blue-900">
+            <svg className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
         </span>
-        <h3 class="flex items-center mb-1 text-lg font-semibold text-white dark:text-white">Aphlex 1B - Initial Cold Flow </h3>
-        <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">September 13th, 2020</time>
-        <p class="mb-4 text-base font-normal text-white dark:text-white">After years of designs and numerous times back at the drawing board learning the ropes of liquid rocketry, Project Caelus ran its first-ever hardware test. The initial cold flow test verified initial designs for plumbing, flight software, and pressurization procedures for the ethanol propellant system. This test utilized water pressurized with nitrogen to serve as a proof-of-concept for methodology and development processes, as well as safety procedures and protocols.</p>
+        <h3 className="flex items-center mb-1 text-lg font-semibold text-white dark:text-white">Aphlex 1B - Initial Cold Flow </h3>
+        <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">September 13th, 2020</time>
+        <p className="mb-4 text-base font-normal text-white dark:text-white">After years of designs and numerous times back at the drawing board learning the ropes of liquid rocketry, Project Caelus ran its first-ever hardware test. The initial cold flow test verified initial designs for plumbing, flight software, and pressurization procedures for the ethanol propellant system. This test utilized water pressurized with nitrogen to serve as a proof-of-concept for methodology and development processes, as well as safety procedures and protocols.</p>
       <div className="object-cover h-48 w-96 pb-24">
         <Image src={g} alt="">
         </Image>
         </div>
     </li>
-    <li class="mb-12 ml-6">            
-        <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-slate-600 dark:ring-gray-900 dark:bg-blue-900">
-            <svg class="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+    <li className="mb-12 ml-6">            
+        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-slate-600 dark:ring-gray-900 dark:bg-blue-900">
+            <svg className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
         </span>
-        <h3 class="flex items-center mb-1 text-lg font-semibold text-white dark:text-white">AIAA YPSE Conference 2020 </h3>
-        <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">October 16, 2020</time>
-        <p class="mb-4 text-base font-normal text-white dark:text-white">The Caelus team presented our design for the Aphlex 1B engine at the AIAA Young Professionals, Students, and Educators (YPSE) 2020 conference and took home the "Best High School Presentation" prize for our design paper titled: "Development of a Cost-Effective 1.5kN Liquid-Fueled Rocket Propulsion System"</p>
+        <h3 className="flex items-center mb-1 text-lg font-semibold text-white dark:text-white">AIAA YPSE Conference 2020 </h3>
+        <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">October 16, 2020</time>
+        <p className="mb-4 text-base font-normal text-white dark:text-white">The Caelus team presented our design for the Aphlex 1B engine at the AIAA Young Professionals, Students, and Educators (YPSE) 2020 conference and took home the "Best High School Presentation" prize for our design paper titled: "Development of a Cost-Effective 1.5kN Liquid-Fueled Rocket Propulsion System"</p>
       <div className="object-cover h-48 w-96 pb-24">
         <Image src={h} alt="">
         </Image>
         </div>
     </li>
-    <li class="mb-6 ml-6">            
-        <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-slate-600 dark:ring-gray-900 dark:bg-blue-900">
-            <svg class="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+    <li className="mb-6 ml-6">            
+        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-slate-600 dark:ring-gray-900 dark:bg-blue-900">
+            <svg className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
         </span>
-        <h3 class="flex items-center mb-1 text-lg font-semibold text-white dark:text-white">Aphlex 1C - Engine Redesign </h3>
-        <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">March 13, 2021</time>
-        <p class="mb-4 text-base font-normal text-white dark:text-white">With the team's growing experience and grasp of rocket science, we tackled an engine redesign to optimize our engine's performance with our hardware constraints. With this process, we increased our planned thrust from 1,500 to 2,500 Newtons and the Aphlex 1C engine has the potential to reach our target altitude of 5,000 feet with continued improvements.</p>
+        <h3 className="flex items-center mb-1 text-lg font-semibold text-white dark:text-white">Aphlex 1C - Engine Redesign </h3>
+        <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">March 13, 2021</time>
+        <p className="mb-4 text-base font-normal text-white dark:text-white">With the team's growing experience and grasp of rocket science, we tackled an engine redesign to optimize our engine's performance with our hardware constraints. With this process, we increased our planned thrust from 1,500 to 2,500 Newtons and the Aphlex 1C engine has the potential to reach our target altitude of 5,000 feet with continued improvements.</p>
       <div className="object-cover h-48 w-96 pb-24">
         <Image src={i} alt="">
         </Image>
         </div>
     </li>
-    <li class="mb-24 ml-6">            
-        <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-slate-600 dark:ring-gray-900 dark:bg-blue-900">
-            <svg class="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+    <li className="mb-24 ml-6">            
+        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-slate-600 dark:ring-gray-900 dark:bg-blue-900">
+            <svg className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
         </span>
-        <h3 class="flex items-center mb-1 text-lg font-semibold text-white dark:text-white">Aphlex 1C - Ethanol Cold Flow</h3>
-        <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">May, 2021</time>
-        <p class="mb-4 text-base font-normal text-white dark:text-white">The ethanol cold flow test will be another major milestone, as it will be the first time ethanol is introduced into the plumbing system. This test will run very similarly to the ethanol water cold flow test, however, it will use actual ethanol in place of water. This will once again entail stricter safety procedures and will bring us closer to a static engine fire.</p>
+        <h3 className="flex items-center mb-1 text-lg font-semibold text-white dark:text-white">Aphlex 1C - Ethanol Cold Flow</h3>
+        <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">May, 2021</time>
+        <p className="mb-4 text-base font-normal text-white dark:text-white">The ethanol cold flow test will be another major milestone, as it will be the first time ethanol is introduced into the plumbing system. This test will run very similarly to the ethanol water cold flow test, however, it will use actual ethanol in place of water. This will once again entail stricter safety procedures and will bring us closer to a static engine fire.</p>
       <div className="object-cover h-48 w-96 pb-24">
         <Image src={j} alt="">
         </Image>
         </div>
     </li>
-    <li class="mb-20 ml-6">            
-        <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-slate-600 dark:ring-gray-900 dark:bg-blue-900">
-            <svg class="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+    <li className="mb-20 ml-6">            
+        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-slate-600 dark:ring-gray-900 dark:bg-blue-900">
+            <svg className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
         </span>
-        <h3 class="flex items-center mb-1 text-lg font-semibold text-white dark:text-white">Aphlex 1C - Static Engine Fire</h3>
-        <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">June, 2021</time>
-        <p class="mb-4 text-base font-normal text-white dark:text-white">The culmination of all of our years of hard work up until this point - this static engine fire will be an amazing and historic achievement for Project Caelus. Ethanol and nitrous oxide will flow into the Aphlex 1C engine and ignite, producing a peak of 2,500 Newtons of thrust. A key aspect of this test is the data collected which will enable high-accuracy characterization of the engine's performance, and this will prove essential in springboarding on to the future.</p>
+        <h3 className="flex items-center mb-1 text-lg font-semibold text-white dark:text-white">Aphlex 1C - Static Engine Fire</h3>
+        <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">June, 2021</time>
+        <p className="mb-4 text-base font-normal text-white dark:text-white">The culmination of all of our years of hard work up until this point - this static engine fire will be an amazing and historic achievement for Project Caelus. Ethanol and nitrous oxide will flow into the Aphlex 1C engine and ignite, producing a peak of 2,500 Newtons of thrust. A key aspect of this test is the data collected which will enable high-accuracy characterization of the engine's performance, and this will prove essential in springboarding on to the future.</p>
       <div className="object-cover h-48 w-96 pb-24">
         <Image src={k} alt="">
         </Image>
         </div>
     </li>
-    <li class=" ml-6">            
-        <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-slate-600 dark:ring-gray-900 dark:bg-blue-900">
-            <svg class="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+    <li className=" ml-6">            
+        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-slate-600 dark:ring-gray-900 dark:bg-blue-900">
+            <svg className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
         </span>
-        <h3 class="flex items-center mb-1 text-lg font-semibold text-white dark:text-white">Callisto I</h3>
-        <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">June, 2022</time>
-        <p class="mb-4 text-base font-normal text-white dark:text-white">The Callisto I launch vehicle will utilize an improved version of the Aphlex 1C engine, aptly named Aphlex 1D. The launch of Callisto I will be the first-ever liquid-fueled rocket launch by a high school team and among the first of all amateur groups in the world. The current target apogee for this inaugural rocket is 5,000 feet, and it will be a fundamental milestone in the quest for space.</p>
+        <h3 className="flex items-center mb-1 text-lg font-semibold text-white dark:text-white">Callisto I</h3>
+        <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">June, 2022</time>
+        <p className="mb-4 text-base font-normal text-white dark:text-white">The Callisto I launch vehicle will utilize an improved version of the Aphlex 1C engine, aptly named Aphlex 1D. The launch of Callisto I will be the first-ever liquid-fueled rocket launch by a high school team and among the first of all amateur groups in the world. The current target apogee for this inaugural rocket is 5,000 feet, and it will be a fundamental milestone in the quest for space.</p>
       <div className="object-cover h-48 w-96 pb-24">
         <Image src={l} alt="">
         </Image>
         </div>
     </li>
-    <li class="mb-12 ml-6">            
-        <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-slate-600 dark:ring-gray-900 dark:bg-blue-900">
-            <svg class="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+    <li className="mb-12 ml-6">            
+        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-slate-600 dark:ring-gray-900 dark:bg-blue-900">
+            <svg className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
         </span>
-        <h3 class="flex items-center mb-1 text-lg font-semibold text-white dark:text-white">Callisto II</h3>
-        <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Beyond 2022</time>
-        <p class="mb-4 text-base font-normal text-white dark:text-white">Beyond Callisto I, based on collected data and research findings, the Project Caelus team will progress towards larger rockets producing more thrusts and potentially using different propellant combinations. Callisto II is currently planned as an intermediary launch vehicle between Callisto I, which will launch to 5,000 feet, and Callisto III, which will launch to space.</p>
+        <h3 className="flex items-center mb-1 text-lg font-semibold text-white dark:text-white">Callisto II</h3>
+        <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Beyond 2022</time>
+        <p className="mb-4 text-base font-normal text-white dark:text-white">Beyond Callisto I, based on collected data and research findings, the Project Caelus team will progress towards larger rockets producing more thrusts and potentially using different propellant combinations. Callisto II is currently planned as an intermediary launch vehicle between Callisto I, which will launch to 5,000 feet, and Callisto III, which will launch to space.</p>
       <div className="object-cover h-48 w-96 pb-24">
         <Image src={m} alt="">
         </Image>
         </div>
     </li>
-    <li class="mb-24 ml-6">            
-        <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-slate-600 dark:ring-gray-900 dark:bg-blue-900">
-            <svg class="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+    <li className="mb-24 ml-6">            
+        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-slate-600 dark:ring-gray-900 dark:bg-blue-900">
+            <svg className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
         </span>
-        <h3 class="flex items-center mb-1 text-lg font-semibold text-white dark:text-white">Callisto III</h3>
-        <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Beyond 2022</time>
-        <p class="mb-4 text-base font-normal text-white dark:text-white">The Callisto III rocket is the current final goal of our project and will reach the Karman line, the border between Earth and space, at 100km above sea level.</p>
+        <h3 className="flex items-center mb-1 text-lg font-semibold text-white dark:text-white">Callisto III</h3>
+        <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Beyond 2022</time>
+        <p className="mb-4 text-base font-normal text-white dark:text-white">The Callisto III rocket is the current final goal of our project and will reach the Karman line, the border between Earth and space, at 100km above sea level.</p>
       <div className="object-cover h-48 w-96 pb-24">
         <Image src={cal3} alt="">
         </Image>
@@ -239,6 +428,6 @@ export default function Home() {
     </div>
 
   </div>
-  
+  </div>
   )
 }
