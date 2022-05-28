@@ -41,8 +41,8 @@ export default function Navbar() {
     return (
         <nav className="flex filter drop-shadow-md bg-black px-4 py-4 h-20 items-center">
             <MobileNav open={open} setOpen={setOpen}/>
-            <div className="pl-8 w-/12 flex items-center">
-                <div className="h-16 w-24 relative">
+            <div className="font-extralight pl-8 w-/12 flex items-center">
+                <div className=" h-16 w-24 relative">
                 <Image
                     src={cat1}
                     layout="fill" // required
@@ -50,28 +50,28 @@ export default function Navbar() {
                 </div>
                 <div className=" pl-8 text-white">
                 <NavLink to="/">
-                        Home
+                        HOME
                     </NavLink>
                     </div>
 
                     <div className=" pl-8 text-white">
 
                     <NavLink to="./pages/about">
-                        About
+                        ABOUT
                     </NavLink>
                     </div>
 
                     <div className=" pl-8 text-white">
 
                     <NavLink to="/projects">
-                        Projects
+                        PROJECTS
                     </NavLink>
                     </div>
 
                     <div className=" pl-8 text-white">
 
                     <NavLink to="/subteams">
-                        Subteams
+                        SUBTEAMS
                     </NavLink>
                 </div>
             </div>
@@ -85,7 +85,7 @@ export default function Navbar() {
                     <span className={`h-1 w-full bg-white rounded-lg transition-all duration-300 ease-in-out ${open ? "w-0" : "w-full"}`} />
                     <span className={`h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${open ? "-rotate-45 -translate-y-3.5" : ""}`} />
                 </div>
-                <div className="pr-16 text-white">
+                <div className="font-extralight pr-16 text-white">
                 <NavLink to="/donate">
                         DONATE
                     </NavLink>
