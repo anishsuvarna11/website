@@ -45,7 +45,7 @@ export default function Home() {
       <h1 className = "z-20 text-white text-2xl flex flex-row justify-evenly items-center">
       The first high-school team to take a liquid-fueled rocket to space.      
       </h1>
-      <div className = "animate-bounce w-6 h-6 mt-12 ml-96 mr-96 flex items-center justify-center h-24 w-24">
+      <div className = "animate-bounce mt-12 ml-96 mr-96 flex items-center justify-center h-24 w-24">
       <Image className=""
       src={cat233}
       />
@@ -65,13 +65,13 @@ export default function Home() {
       <div className=" mb-4 flex items-center justify-center">
     <div>
 
-      <div className = "font-serif pb-8">
+      <div className = "font-extralight pb-8">
       <h1 className = " text-white text-4xl flex flex-row justify-evenly items-center">
       Meet Callisto
       </h1></div>
 
 
-<div className = "font-serif pb-36 flex flex-row">
+<div className = "font-thin pb-36 flex flex-row">
     <div>
       <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-sky-500/30 underline-offset-8 decoration-4 pt-24 flex flex-row">
       <h1 className = " text-white text-2xl flex flex-row justify-evenly items-center">
@@ -405,24 +405,21 @@ export default function Home() {
 </ol>
 </div>
 
-<div className = "bg-slate-900 flex flex-row flex-items-justify center">
-  <div className=" pb-12 pl-12 pr-12 pt-12">
-      <Image className=" object-cover md:h-full md:w-full" src={e} alt="">
-    </Image>
-    </div>
-    <h1 className = "text-white text-2xl pl-8 pt-24">
+<div className = "font-thin bg-zinc-900 flex flex-row items-center justify center">
+
+    <h1 className = "text-white text-2xl pl-80 pt-4 pb-4">
       Home
     </h1>
-    <h1 className = "text-white text-2xl pl-20 pt-24">
+    <h1 className = "text-white text-2xl pl-20 pt-4 pb-4">
       Projects
     </h1>
-    <h1 className = "text-white text-2xl pl-20 pt-24">
+    <h1 className = "text-white text-2xl pl-20 pt-4 pb-4">
       About
     </h1>
-    <h1 className = "text-white text-2xl pl-20 pt-24">
+    <h1 className = "text-white text-2xl pl-20 pt-4 pb-4">
       Project Caelus 2022
     </h1>
-    <h1 className = "text-white text-2xl pl-20 pt-24">
+    <h1 className = "text-white text-2xl pl-20 pt-4 pb-4">
       Social Media
     </h1>
     </div>
