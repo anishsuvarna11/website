@@ -11,7 +11,7 @@ import social from "../public/images/Screen Shot 2022-04-23 at 12.08.50 PM.png"
 import Head from 'next/head'
 // import { Main } from 'next/document'
 
-export default function about() {
+export default function subteams() {
     return (
       <div>
         <Head>
@@ -22,7 +22,7 @@ export default function about() {
       <main className='h-screen'>
       <div className = "text-black">
         <h1>
-          hello nitya
+          hello amma
         </h1>
       </div>
       </main>

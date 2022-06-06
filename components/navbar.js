@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Image from "next/image"
 import cat1 from "../public/images/download-removebg-preview.png"
+import Link from 'next/link'
 
 function NavLink({to, children}) {
     return <a href={to} className={`mx-4`}>
@@ -56,7 +57,7 @@ export default function Navbar() {
 
                     <div className=" pl-8 text-white">
 
-                    <NavLink to="./pages/about">
+                    <NavLink to="/About">
                         ABOUT
                     </NavLink>
                     </div>
