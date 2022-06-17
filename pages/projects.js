@@ -27,7 +27,7 @@ export default function projects() {
 
       <div className = "bg-gradient-to-r from-slate-900 to-black">
           <div className = "flex flex-items justify-center pt-12">
-          <div className="uppercase tracking-wide text-4xl text-white font-extralight semibold">Completed</div>
+          <div className="underline decoration-red-400 underline-offset-8 decoration-4 uppercase tracking-wide text-4xl text-white font-extralight semibold">Completed</div>
         </div>
         <div className = "pt-12 flex flex-row">
     <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-6 pr-3">
@@ -38,7 +38,7 @@ export default function projects() {
     </Image>
     <div className="p-8">
       <div className="uppercase tracking-wide text-sm text-indigo-500 font-extralight semibold">Project Caelus</div>
-      <a href="#" className="block mt-1 text-lg leading-tight font-extralight semibold text-red-400 hover:underline">The Mission Statement</a>
+      <a href="#" className="block mt-1 text-3xl leading-tight font-extralight semibold text-red-400 hover:underline">Ethanol Cold Flow</a>
       <p className="mt-2 text-black">
       </p>
     </div>
@@ -55,7 +55,7 @@ export default function projects() {
     </Image>
     <div className="p-8">
       <div className="uppercase tracking-wide text-sm text-indigo-500 font-extralight semibold">Project Caelus</div>
-      <a href="#" className="block mt-1 text-lg leading-tight font-extralight semibold text-red-400 hover:underline">The Mission Statement</a>
+      <a href="#" className="block mt-1 text-3xl leading-tight font-extralight semibold text-red-400 hover:underline">Nitrous Cold Flow (Water)</a>
       <p className="mt-2 text-black">
       </p>
     </div>
@@ -74,7 +74,7 @@ export default function projects() {
     </Image>
     <div className="p-8">
       <div className="uppercase tracking-wide text-sm text-indigo-500 font-extralight semibold">Project Caelus</div>
-      <a href="#" className="block mt-1 text-lg leading-tight font-extralight semibold text-red-400 hover:underline">The Mission Statement</a>
+      <a href="#" className="block mt-1 text-3xl leading-tight font-extralight semibold text-red-400 hover:underline">Nitrous Cold Flow</a>
       <p className="mt-2 text-black">
 
 </p>
@@ -92,11 +92,12 @@ export default function projects() {
       </div>
 
       <div className = "bg-gradient-to-r from-slate-900 to-black">
-          <div className = "flex flex-items justify-center pt-36">
-          <div className="uppercase tracking-wide text-4xl text-white font-extralight semibold">In Progress</div>
+          <div className = "flex flex-items justify-center pt-24">
+          <div className="underline decoration-red-400 underline-offset-8 decoration-4 uppercase tracking-wide text-4xl text-white font-extralight semibold">In Progress</div>
         </div>
         <div className = "pt-12 flex flex-row">
-    <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-6 pr-3">
+
+    <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-48 pr-3">
     <div className=" rounded-3xl  bg-black">
   <div className="md:flex">
     <div className="rounded-3xl shadow-2xl">
@@ -104,7 +105,7 @@ export default function projects() {
     </Image>
     <div className="p-8">
       <div className="uppercase tracking-wide text-sm text-indigo-500 font-extralight semibold">Project Caelus</div>
-      <a href="#" className="block mt-1 text-lg leading-tight font-extralight semibold text-red-400 hover:underline">The Mission Statement</a>
+      <a href="#" className="block mt-1 text-3xl leading-tight font-extralight semibold text-red-400 hover:underline">Full Cold Flow</a>
       <p className="mt-2 text-black">
       </p>
     </div>
@@ -113,7 +114,7 @@ export default function projects() {
 </div>
   </div>
 
-  <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-3 pr-3">
+  <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-3 pr-48">
   <div className=" rounded-3xl bg-black">
   <div className="md:flex">
   <div className="rounded-3xl shadow-2xl">
@@ -121,7 +122,7 @@ export default function projects() {
     </Image>
     <div className="p-8">
       <div className="uppercase tracking-wide text-sm text-indigo-500 font-extralight semibold">Project Caelus</div>
-      <a href="#" className="block mt-1 text-lg leading-tight font-extralight semibold text-red-400 hover:underline">The Mission Statement</a>
+      <a href="#" className="block mt-1 text-3xl leading-tight font-extralight semibold text-red-400 hover:underline">Static Engine Fire</a>
       <p className="mt-2 text-black">
       </p>
     </div>
@@ -132,23 +133,7 @@ export default function projects() {
 
   
 
-  <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-3 pr-6">
-  <div className=" rounded-3xl bg-black">
-  <div className="md:flex">
-  <div className="rounded-3xl shadow-2xl">
-  <Image className="rounded-t-3xl object-cover md:h-full md:w-full" src={b} alt="">
-    </Image>
-    <div className="p-8">
-      <div className="uppercase tracking-wide text-sm text-indigo-500 font-extralight semibold">Project Caelus</div>
-      <a href="#" className="block mt-1 text-lg leading-tight font-extralight semibold text-red-400 hover:underline">The Mission Statement</a>
-      <p className="mt-2 text-black">
-
-</p>
-    </div>
-  </div>
-</div>
-</div>
-  </div>
+ 
 
   </div>
 
@@ -157,11 +142,12 @@ export default function projects() {
             
       </div>
 
-      <div className = "bg-gradient-to-r from-slate-900 to-black">
-          <div className = "flex flex-items justify-center pt-36">
-          <div className="uppercase tracking-wide text-4xl text-white font-extralight semibold">Planned</div>
+      <div className = "pb-8 bg-gradient-to-r from-slate-900 to-black">
+          <div className = "flex flex-items justify-center pt-24">
+          <div className="underline decoration-red-400 underline-offset-8 decoration-4 uppercase tracking-wide text-4xl text-white font-extralight semibold">Planned</div>
         </div>
         <div className = "pt-12 flex flex-row">
+    
     <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 pl-6 pr-3 pb-12">
     <div className=" rounded-3xl  bg-black">
   <div className="md:flex">
@@ -170,7 +156,7 @@ export default function projects() {
     </Image>
     <div className="p-8">
       <div className="uppercase tracking-wide text-sm text-indigo-500 font-extralight semibold">Project Caelus</div>
-      <a href="#" className="block mt-1 text-lg leading-tight font-extralight semibold text-red-400 hover:underline">The Mission Statement</a>
+      <a href="#" className="block mt-1 text-3xl leading-tight font-extralight semibold text-red-400 hover:underline">Callisto I</a>
       <p className="mt-2 text-black">
       </p>
     </div>
@@ -187,7 +173,7 @@ export default function projects() {
     </Image>
     <div className="p-8">
       <div className="uppercase tracking-wide text-sm text-indigo-500 font-extralight semibold">Project Caelus</div>
-      <a href="#" className="block mt-1 text-lg leading-tight font-extralight semibold text-red-400 hover:underline">The Mission Statement</a>
+      <a href="#" className="block mt-1 text-3xl leading-tight font-extralight semibold text-red-400 hover:underline">Callisto II</a>
       <p className="mt-2 text-black">
       </p>
     </div>
@@ -206,7 +192,7 @@ export default function projects() {
     </Image>
     <div className="p-8">
       <div className="uppercase tracking-wide text-sm text-indigo-500 font-extralight semibold">Project Caelus</div>
-      <a href="#" className="block mt-1 text-lg leading-tight font-extralight semibold text-red-400 hover:underline">The Mission Statement</a>
+      <a href="#" className="block mt-1 text-3xl leading-tight font-extralight semibold text-red-400 hover:underline">Callisto III</a>
       <p className="mt-2 text-black">
 
 </p>
@@ -221,11 +207,64 @@ export default function projects() {
 
   </div>
 
+
+  <div className = "bg-slate-900 h-screen">
+    <div className="pt-6 pl-6 tracking-wide text-4xl text-white font-extralight semibold">Ethanol Cold Flow</div>
+
+
+  </div>
+
+  <div className = "bg-black h-screen">
+    <div className="pt-6 pl-6 tracking-wide text-4xl text-white font-extralight semibold">Nitrous Cold Flow (Water)</div>
+
+
+  </div>
+
+  <div className = "bg-slate-900 h-screen">
+    <div className="pt-6 pl-6 tracking-wide text-4xl text-white font-extralight semibold">Nitrous Cold Flow</div>
+
+
+  </div>
+
+  <div className = "bg-black h-screen">
+    <div className="pt-6 pl-6 tracking-wide text-4xl text-white font-extralight semibold">Full Cold Flow</div>
+
+
+  </div>
+
+  <div className = "bg-slate-900 h-screen">
+    <div className="pt-6 pl-6 tracking-wide text-4xl text-white font-extralight semibold">Static Engine Fire</div>
+
+
+  </div>
+
+  <div className = "bg-black h-screen">
+    <div className="pt-6 pl-6 tracking-wide text-4xl text-white font-extralight semibold">Callisto I</div>
+
+
+  </div>
+
+  <div className = "bg-slate-900 h-screen">
+    <div className="pt-6 pl-6 tracking-wide text-4xl text-white font-extralight semibold">Callisto II</div>
+
+
+  </div>
+
+  <div className = "bg-black h-screen">
+    <div className="pt-6 pl-6 tracking-wide text-4xl text-white font-extralight semibold">Callisto III</div>
+
+
+  </div>
+
+  </div>
+
+
             
-      </div>
 
       </main>
       </div>
       
     )
   }
+
+  //USE THE CAROUSEL FROM TAILWIND
