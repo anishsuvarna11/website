@@ -28,6 +28,9 @@ function MobileNav({open, setOpen}) {
                 <a className="text-xl font-normal my-4" href="/about" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     About
                 </a>
+                <a className="text-xl font-normal my-4" href="/blog" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                    Blog
+                </a>
                 <a className="text-xl font-normal my-4" href="/donate" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Donate
                 </a>
@@ -75,6 +78,13 @@ export default function Navbar() {
                         SUBTEAMS
                     </NavLink>
                 </div>
+
+                <div className=" pl-8 text-white">
+
+<NavLink to="/blog">
+    BLOG
+</NavLink>
+</div>
             </div>
             <div className="w-9/12 flex justify-end items-center">
 

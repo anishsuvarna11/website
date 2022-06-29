@@ -66,14 +66,14 @@ export default function Home() {
     <div>
 
       <div className = "font-extralight pb-8">
-      <h1 className = " text-white text-4xl flex flex-row justify-evenly items-center">
+      <h1 className = "underline decoration-indigo-500 underline-offset-8 decoration-4 text-white text-4xl flex flex-row justify-evenly items-center">
       Meet Callisto
       </h1></div>
 
 
 <div className = "font-thin pb-36 flex flex-row">
     <div>
-      <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-sky-500/30 underline-offset-8 decoration-4 pt-24 flex flex-row">
+      <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24 flex flex-row">
       <h1 className = " text-white text-2xl flex flex-row justify-evenly items-center">
       Engine
       </h1>
@@ -85,7 +85,7 @@ export default function Home() {
       </h1>
       </div>
 
-      <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-pink-500/30 underline-offset-8 decoration-4 pt-24  flex flex-row">
+      <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24  flex flex-row">
       <h1 className = "text-white text-2xl flex flex-row justify-evenly items-center">
       Specific impulse
       </h1>
@@ -97,7 +97,7 @@ export default function Home() {
       </h1>
       </div>
 
-      <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-sky-500/30 underline-offset-8 decoration-4 pt-24  flex flex-row">
+      <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24  flex flex-row">
       <h1 className = " text-white text-2xl justify-evenly items-center">
       Propellants
       </h1>
@@ -109,7 +109,7 @@ export default function Home() {
       </h1>
       </div>
 
-      <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-pink-500/30 underline-offset-8 decoration-4 pt-24  flex flex-row">
+      <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24  flex flex-row">
       <h1 className = " text-white text-2xl flex flex-row justify-evenly items-center">
       Burn time
       </h1>
@@ -121,7 +121,7 @@ export default function Home() {
       </h1>
       </div>
 
-      <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-sky-500/30 underline-offset-8 decoration-4 pt-24  flex flex-row">
+      <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24  flex flex-row">
       <h1 className = " text-white text-2xl ">
       Ignition source
       </h1>
@@ -133,7 +133,7 @@ export default function Home() {
       </h1>
       </div>
 
-      <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-pink-500/30 underline-offset-8 decoration-4 pt-24  flex flex-row">
+      <div className = "transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24  flex flex-row">
       <h1 className = "text-white text-2xl">
       Altitude
       </h1>
@@ -150,7 +150,7 @@ export default function Home() {
 
 <div>
     
-      <div className = "pl-80 transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-sky-500/30 underline-offset-8 decoration-4 pt-24  flex flex-row">
+      <div className = "pl-80 transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24  flex flex-row">
       <h1 className = "text-white text-2xl ">
       Recovery system
       </h1>
@@ -162,7 +162,7 @@ export default function Home() {
       </h1>
       </div>
 
-      <div className = "pl-80 transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-pink-500/30 underline-offset-8 decoration-4 pt-24  flex flex-row">
+      <div className = "pl-80 transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24  flex flex-row">
       <h1 className = "text-white text-2xl ">
       Thrust
       </h1>
@@ -174,7 +174,7 @@ export default function Home() {
       </h1>
       </div>
 
-      <div className = "pl-80 transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-sky-500/30 underline-offset-8 decoration-4 pt-24  flex flex-row">
+      <div className = "pl-80 transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24  flex flex-row">
       <h1 className = " text-white text-2xl flex flex-row justify-evenly items-center">
       Feed System
       </h1>
@@ -186,7 +186,7 @@ export default function Home() {
       </h1>
       </div>
 
-      <div className = "pl-80 transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-pink-500/30 underline-offset-8 decoration-4 pt-24  flex flex-row">
+      <div className = "pl-80 transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24  flex flex-row">
       <h1 className = "text-white text-2xl flex flex-row justify-evenly items-center">
       Max Speed
       </h1>
@@ -198,7 +198,7 @@ export default function Home() {
       </h1>
       </div>
 
-      <div className = "pl-80 transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-sky-500/30 underline-offset-8 decoration-4 pt-24  flex flex-row">
+      <div className = "pl-80 transition ease-in-out hover:-translate-y-2 hover:scale-105 duration-300 underline decoration-indigo-500 underline-offset-8 decoration-4 pt-24  flex flex-row">
       <h1 className = "text-white text-2xl flex flex-row justify-evenly items-center">
       Cooling system
       </h1>
@@ -293,7 +293,7 @@ export default function Home() {
 <div className = "drop-shadow-4xl pl-24 pr-24">
 <ol className="pl-6 relative border-l border-gray-800 dark:border-gray-700">                  
     <li className="mb-12 ml-6">            
-        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-slate-600 dark:ring-gray-900 dark:bg-blue-900">
+        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-indigo-700 dark:ring-gray-900 dark:bg-blue-900">
             <svg className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
         </span>
         <h3 className="font-extralight semibold flex items-center mb-1 text-lg text-white dark:text-white">Project Caelus Formed </h3>
@@ -307,7 +307,7 @@ export default function Home() {
         </div>
     </li>
     <li className="mb-12 ml-6">            
-        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-slate-600 dark:ring-gray-900 dark:bg-blue-900">
+        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-indigo-700 dark:ring-gray-900 dark:bg-blue-900">
             <svg className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
         </span>
         <h3 className="flex items-center mb-1 text-lg font-extralight semibold text-white dark:text-white">Aphlex 1B - Initial Cold Flow </h3>
@@ -322,7 +322,7 @@ export default function Home() {
         </div>
     </li>
     <li className="mb-12 ml-6">            
-        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-slate-600 dark:ring-gray-900 dark:bg-blue-900">
+        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-indigo-700 dark:ring-gray-900 dark:bg-blue-900">
             <svg className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
         </span>
         <h3 className="flex items-center mb-1 text-lg font-extralight semibold text-white dark:text-white">AIAA YPSE Conference 2020 </h3>
@@ -336,7 +336,7 @@ export default function Home() {
         </div>
     </li>
     <li className="mb-12 ml-6">            
-        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-slate-600 dark:ring-gray-900 dark:bg-blue-900">
+        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-indigo-700 dark:ring-gray-900 dark:bg-blue-900">
             <svg className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
         </span>
         <h3 className="flex items-center mb-1 text-lg font-extralight semibold text-white dark:text-white">Aphlex 1C - Engine Redesign </h3>
@@ -350,7 +350,7 @@ export default function Home() {
         </div>
     </li>
     <li className="mb-12 ml-6">            
-        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-slate-600 dark:ring-gray-900 dark:bg-blue-900">
+        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-indigo-700 dark:ring-gray-900 dark:bg-blue-900">
             <svg className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
         </span>
         <h3 className="flex items-center mb-1 text-lg font-extralight semibold text-white dark:text-white">Aphlex 1C - Ethanol Cold Flow</h3>
@@ -364,7 +364,7 @@ export default function Home() {
         </div>
     </li>
     <li className="mb-12 ml-6">            
-        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-slate-600 dark:ring-gray-900 dark:bg-blue-900">
+        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-indigo-700 dark:ring-gray-900 dark:bg-blue-900">
             <svg className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
         </span>
         <h3 className="flex items-center mb-1 text-lg font-extralight semibold text-white dark:text-white">Aphlex 1C - Static Engine Fire</h3>
@@ -378,7 +378,7 @@ export default function Home() {
         </div>
     </li>
     <li className="mb-12 ml-6">            
-        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-slate-600 dark:ring-gray-900 dark:bg-blue-900">
+        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-indigo-700 dark:ring-gray-900 dark:bg-blue-900">
             <svg className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
         </span>
         <h3 className="flex items-center mb-1 text-lg font-extralight semibold text-white dark:text-white">Callisto I</h3>
@@ -393,7 +393,7 @@ export default function Home() {
         </div>
     </li>
     <li className="mb-24 ml-6">
-        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-slate-600 dark:ring-gray-900 dark:bg-blue-900">
+        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-indigo-700 dark:ring-gray-900 dark:bg-blue-900">
             <svg className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
         </span>
         <h3 className="flex items-center mb-1 text-lg font-extralight semibold text-white dark:text-white">Callisto II</h3>
@@ -411,7 +411,7 @@ export default function Home() {
 </ol>
 </div>
 
-<div className = "font-thin bg-zinc-900 flex flex-row items-center justify center">
+<div className = "font-thin bg-slate-900 flex flex-row items-center justify center">
 
     <h1 className = "text-white text-2xl pl-80 pt-4 pb-4">
       Home
